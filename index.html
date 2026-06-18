@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SnapX</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- slide 1 -->
     <nav class="navbar navbar-expand-lg custom-navbar">
       <div class="container">
         <!-- logo    -->
@@ -20,7 +27,8 @@
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarMenu">
+          data-bs-target="#navbarMenu"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Menu -->
@@ -55,13 +63,15 @@
           Enter a world of
           <span>Photos</span> & Amazing <span> Awards</span>
         </h1>
-        <hr>
+        <hr />
         <p class="mx-auto col-lg-8">
           SnapX Photography is a professional website template with 5 different
           HTML pages for maximum customizations. It is free for commercial
           usage.
         </p>
-        <div class="hero-buttons d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
+        <div
+          class="hero-buttons d-flex flex-column flex-md-row justify-content-center align-items-center gap-3"
+        >
           <a href="#" class="btn btn-explore"> Explore SnapX Contest </a>
           <a href="#" class="watch-video">
             <i class="fa-solid fa-play"></i>
@@ -70,243 +80,412 @@
         </div>
       </div>
     </section>
-<!-- Floating Cards Section -->
-<section class="contest-section">
-    <div id="contestCarousel" class="carousel slide">
+    <!-- Floating Cards Section -->
+    <section class="contest-section">
+      <div id="contestCarousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#contestCarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#contestCarousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#contestCarousel"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="container">
-                    <div class="row justify-content-center align-items-center g-4">
-                        <!-- Left Image -->
-                        <div class="col-lg-4">
-                            <img src="images/card1.jpg" class="img-fluid rounded-4 shadow" alt="Contest Image">
-                        </div>
-                        <!-- Center Card -->
-                        <div class="col-lg-4">
-                            <div class="card contest-card border-0 shadow">
-                                <div class="card-body text-center p-2">
-                                    <h4 class="text-info fw-bold mt-5">
-                                        Walk In The Nature
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <small class="text-secondary">(4.5)</small>
-                                    </h4>
-                                    <div class="mt-4">
-                                        <p>
-                                            <strong>Contest Winner:</strong>
-                                            Tomino Boy
-                                        </p>
-                                        <p>
-                                            <strong>Contest Author:</strong>
-                                            Anthony Bolt
-                                        </p>
-                                        <p>
-                                            <strong>Awards:</strong>
-                                            Canon EOS R1
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Right Image -->
-                        <div class="col-lg-4">
-                            <img src="images/card2.jpg" class="img-fluid rounded-4 shadow" alt="Contest Image">
-                        </div>
-                    </div>
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row justify-content-center align-items-center g-4">
+                <!-- slide 1 -->
+                <div class="col-lg-4 col-md-6">
+                  <img src="images/card1.jpg" class="img-fluid rounded-4 shadow w-100 " alt="img"/>
                 </div>
+                <div class="col-lg-4 col-md-12">
+                  <div class="card contest-card border-0 shadow">
+                    <div class="card-body text-center p-4">
+                      <h4 class="text-info fw-bold mt-5">
+                        Walk In The Nature
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <small class="text-secondary">(4.0)</small>
+                      </h4>
+                      <div class="mt-2">
+                        <p><strong>Contest Winner:</strong> Tomino Boy</p>
+                        <p><strong>Contest Author:</strong> Anthony Bolt</p>
+                        <p><strong>Awards:</strong> Canon EOS R1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="images/card2.jpg"
+                    class="img-fluid rounded-4 shadow w-100 "
+                    alt="img"
+                  />
+                </div>
+              </div>
             </div>
+          </div>
+          <!-- SLIDE 2 -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row justify-content-center align-items-center g-4">
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="images/photo-video-01.jpg"
+                    class="img-fluid rounded-4 shadow w-100 "
+                    alt="img"
+                  />
+                </div>
+                <div class="col-lg-4 col-md-12">
+                  <div class="card contest-card border-0 shadow">
+                    <div class="card-body text-center p-4">
+                      <h4 class="text-info fw-bold mt-5">
+                        Where The Magic Lives
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <small class="text-secondary">(4.0)</small>
+                      </h4>
+                      <div class="mt-2">
+                        <p><strong>Contest Winner:</strong> Joseph Radhik</p>
+                        <p><strong>Contest Author:</strong> Mario Testino</p>
+                        <p><strong>Awards:</strong> Sony A7 IV</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="images/photo-video-02.jpg"
+                    class="img-fluid rounded-4 shadow w-100"
+                    alt="img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- SLIDE 3 -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row justify-content-center align-items-center g-4">
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="images/photo-video-03.jpg"
+                    class="img-fluid rounded-4 shadow w-100 "
+                    alt="img"
+                  />
+                </div>
+                <div class="col-lg-4 col-md-12">
+                  <div class="card contest-card border-0 shadow">
+                    <div class="card-body text-center p-4">
+                      <h4 class="text-info fw-bold mt-5">
+                        Secrets Of The Deep
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <small class="text-secondary">(4.0)</small>
+                      </h4>
+                      <div class="mt-2">
+                        <p><strong>Contest Winner:</strong> Peter Leibovitz</p>
+                        <p><strong>Contest Author:</strong> Ansel Adams</p>
+                        <p><strong>Awards:</strong> Nikon Z8</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="images/photo-video-04.jpg"
+                    class="img-fluid rounded-4 shadow w-100 "
+                    alt="img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- Previous Button -->
-        <button class="carousel-control-prev"
-            type="button"
-            data-bs-target="#contestCarousel"
-            data-bs-slide="prev">
-            <span class="custom-arrow">
-                <i class="fa-solid fa-chevron-left"></i>
-            </span>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#contestCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="custom-arrow">
+            <i class="fa-solid fa-chevron-left"></i>
+          </span>
         </button>
         <!-- Next Button -->
-        <button class="carousel-control-next"
-            type="button"
-            data-bs-target="#contestCarousel"
-            data-bs-slide="next">
-            <span class="custom-arrow">
-                <i class="fa-solid fa-chevron-right"></i>
-            </span>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#contestCarousel"
+          data-bs-slide="next"
+        >
+          <span class="custom-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </span>
         </button>
-    </div>
-</section>
-
-<!-- slide 2 -->
-
-<section class="category-section py-5">
-    <div class="container">
+      </div>
+    </section>
+    <!-- slide 2 -->
+    <section class="category-section py-5">
+      <div class="container">
         <!-- Heading Row -->
-        <div class="d-flex justify-content-between align-items-center flex-wrap mb-5">
-            <div>
-                <span class="section-tag">OUR CATEGORIES</span>
-                <h2 class="section-title mt-2">
-                    Check Out <span>Popular</span> Contest <span>Categories</span>
-                </h2>
-            </div>
-            <a href="#" class="discover-btn mt-3 mt-lg-0">
-                Discover All Categories
-            </a>
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap mb-5"
+        >
+          <div>
+            <span class="section-tag">OUR CATEGORIES</span>
+            <h2 class="section-title mt-2">
+              Check Out <span>Popular</span> Contest <span>Categories</span>
+            </h2>
+          </div>
+          <a href="#" class="discover-btn mt-3 mt-lg-0">
+            Discover All Categories
+          </a>
         </div>
         <!-- Cards Row -->
         <div class="row g-4">
-            <!-- Card 1 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="category-card">
-                    <div class="card-top">
-                        <div class="icon-box">
-                            <img src="images/icon-01.png" alt="icon 1">
-                        </div>
-                        <div>
-                            <h5>Nature Pic Contest</h5>
-                            <p><span>120</span> Available Contests</p>
-                        </div>
-                    </div>
-                    <img src="images/popular-01.png" class="category-img" alt="popular 1">
-                    <a href="#" class="card-btn">
-                        Browse Nature Pic Contests
-                    </a>
+          <!-- Card 1 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="card-top">
+                <div class="icon-box">
+                  <img src="images/icon-01.png" alt="icon 1" />
                 </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="category-card">
-                    <div class="card-top">
-                        <div class="icon-box">
-                            <img src="images/icon-02.png" alt="icon 2">
-                        </div>
-                        <div>
-                            <h5>Random Pic Contest</h5>
-                            <p><span>110</span> Available Contests</p>
-                        </div>
-                    </div>
-                    <img src="images/popular-02.png" class="category-img" alt="popular 2">
-                    <a href="#" class="card-btn">
-                        Browse Random Pic Contests
-                    </a>
+                <div>
+                  <h5>Nature Pic Contest</h5>
+                  <p><span>120</span> Available Contests</p>
                 </div>
+              </div>
+              <img
+                src="images/popular-01.png"
+                class="category-img"
+                alt="popular 1"
+              />
+              <a href="#" class="card-btn"> Browse Nature Pic Contests </a>
             </div>
-            <!-- Card 3 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="category-card">
-                    <div class="card-top">
-                        <div class="icon-box">
-                            <img src="images/icon-03.png" alt="icon 3">
-                        </div>
-                        <div>
-                            <h5>Portrait Pic Contest</h5>
-                            <p><span>164</span> Available Contests</p>
-                        </div>
-                    </div>
-                    <img src="images/popular-03.png" class="category-img"alt="popular 3">
-                    <a href="#" class="card-btn">
-                        Browse Portrait Pic Contests
-                    </a>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="card-top">
+                <div class="icon-box">
+                  <img src="images/icon-02.png" alt="icon 2" />
                 </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="category-card">
-                    <div class="card-top">
-                        <div class="icon-box">
-                            <img src="images/icon-04.png" alt="icon 4">
-                        </div>
-                        <div>
-                            <h5>Space Pic Contest</h5>
-                            <p><span>135</span> Available Contests</p>
-                        </div>
-                    </div>
-                    <img src="images/popular-04.png" class="category-img" alt="">
-
-                    <a href="#" class="card-btn">
-                        Browse Space Pic Contests
-                    </a>
+                <div>
+                  <h5>Random Pic Contest</h5>
+                  <p><span>110</span> Available Contests</p>
                 </div>
+              </div>
+              <img
+                src="images/popular-02.png"
+                class="category-img"
+                alt="popular 2"
+              />
+              <a href="#" class="card-btn"> Browse Random Pic Contests </a>
             </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="card-top">
+                <div class="icon-box">
+                  <img src="images/icon-03.png" alt="icon 3" />
+                </div>
+                <div>
+                  <h5>Portrait Pic Contest</h5>
+                  <p><span>164</span> Available Contests</p>
+                </div>
+              </div>
+              <img
+                src="images/popular-03.png"
+                class="category-img"
+                alt="popular 3"
+              />
+              <a href="#" class="card-btn"> Browse Portrait Pic Contests </a>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="card-top">
+                <div class="icon-box">
+                  <img src="images/icon-04.png" alt="icon 4" />
+                </div>
+                <div>
+                  <h5>Space Pic Contest</h5>
+                  <p><span>135</span> Available Contests</p>
+                </div>
+              </div>
+              <img src="images/popular-04.png" class="category-img" alt="" />
+              <a href="#" class="card-btn"> Browse Space Pic Contests </a>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
-<!-- slide 3 -->
- <section class="winners-section">
-    <div class="container">
+      </div>
+    </section>
+    <!-- slide 3 -->
+    <section class="winners-section">
+      <div class="container">
         <!-- Heading -->
         <div class="text-center mb-5">
-            <span class="winner-tag">
-                CLOSED PHOTOGRAPHY CONTESTS
-            </span>
-            <h2 class="winner-title mt-3">
-                <span>Previous Contests</span>
-                With Handpicked
-                <span>Winners</span>
-            </h2>
+          <span class="winner-tag"> CLOSED PHOTOGRAPHY CONTESTS </span>
+          <h2 class="winner-title mt-3">
+            <span>Previous Contests</span>
+            With Handpicked
+            <span>Winners</span>
+          </h2>
         </div>
         <div class="row g-4 justify-content-center">
-            <!-- Card 1 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="winner-card">
-                    <img src="images/card-31.jpg" class="winner-img" alt="winner1">
-                    <div class="winner-info">
-                        <div>
-                            <h4>96 Participants</h4>
-                            <p>Number Of Awards</p>
-                        </div>
-                        <div>
-                            <h4>410 Pictures</h4>
-                            <p>Submitted Pics</p>
-                        </div>
-                    </div>
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="winner-card">
+              <img src="images/card-31.jpg" class="winner-img" alt="winner1" />
+              <div class="winner-info">
+                <div>
+                  <h4>96 Participants</h4>
+                  <p>Number Of Awards</p>
                 </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="winner-card">
-                    <img src="images/card-32.jpg" class="winner-img" alt="winner2">
-                    <div class="winner-info">
-                        <div>
-                            <h4>74 Participants</h4>
-                            <p>Number Of Awards</p>
-                        </div>
-                        <div>
-                            <h4>284 Pictures</h4>
-                            <p>Submitted Pics</p>
-                        </div>
-                    </div>
+                <div>
+                  <h4>410 Pictures</h4>
+                  <p>Submitted Pics</p>
                 </div>
+              </div>
             </div>
-            <!-- Card 3 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="winner-card">
-                    <img src="images/card-33.jpg" class="winner-img" alt="winner3">
-                    <div class="winner-info">
-                        <div>
-                            <h4>88 Participants</h4>
-                            <p>Number Of Awards</p>
-                        </div>
-                        <div>
-                            <h4>320 Pictures</h4>
-                            <p>Submitted Pics</p>
-                        </div>
-                    </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="winner-card">
+              <img src="images/card-32.jpg" class="winner-img" alt="winner2" />
+              <div class="winner-info">
+                <div>
+                  <h4>74 Participants</h4>
+                  <p>Number Of Awards</p>
                 </div>
+                <div>
+                  <h4>284 Pictures</h4>
+                  <p>Submitted Pics</p>
+                </div>
+              </div>
             </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="winner-card">
+              <img src="images/card-33.jpg" class="winner-img" alt="winner3" />
+              <div class="winner-info">
+                <div>
+                  <h4>88 Participants</h4>
+                  <p>Number Of Awards</p>
+                </div>
+                <div>
+                  <h4>320 Pictures</h4>
+                  <p>Submitted Pics</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- Button -->
         <div class="text-center mt-5">
-            <a href="#" class="winner-btn">
-                Browse Open Contests
-            </a>
+          <a href="#" class="winner-btn"> Browse Open Contests </a>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- slide 4 -->
+    <!-- slide 4 -->
+    <section class="pricing-section">
+      <div class="container">
+        <!-- Heading -->
+        <div class="text-center mb-5">
+          <span class="pricing-tag">OUR PRICING</span>
+          <h2 class="pricing-title">
+            Photography <span>Contest Plans</span> And Price <span>Awards</span>
+          </h2>
+        </div>
+        <div class="row g-4">
+          <!-- Plan 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="pricing-card text-center">
+              <img src="images/pricing-01.jpg" class="plan-img" alt="price1" />
+              <h3 class="plan-name">Basic Plan</h3>
+              <hr />
+              <ul class="plan-features">
+                <li class="feature-blue">Lorem Ipsum Dolore Sente</li>
+                <li class="feature-blue">Songo Lorem Ipsum Dol</li>
+                <li class="feature-blue">Mattioo Vango Neptuno</li>
+                <li class="feature-gray">Denim Stracha Kopi</li>
+                <li class="feature-gray">Digital Photography Awards</li>
+              </ul>
+              <div class="plan-price">$25 USD</div>
+              <a href="#" class="plan-btn"> Choose This Plan </a>
+            </div>
+          </div>
+          <!-- Plan 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="pricing-card text-center">
+              <img src="images/pricing-02.jpg" class="plan-img" alt="price2" />
+              <h3 class="plan-name">Standard Plan</h3>
+              <hr />
+              <ul class="plan-features">
+                <li class="feature-blue">Lorem Ipsum Dolore Sente</li>
+                <li class="feature-blue">Songo Lorem Ipsum Dol</li>
+                <li class="feature-blue">Mattioo Vango Neptuno</li>
+                <li class="feature-blue">Denim Stracha Kopi</li>
+                <li class="feature-gray">Digital Photography Awards</li>
+              </ul>
+              <div class="plan-price">$45 USD</div>
+              <a href="#" class="plan-btn"> Choose This Plan </a>
+            </div>
+          </div>
+          <!-- Plan 3 -->
+          <div class="col-lg-4 col-md-6 mx-md-auto mx-lg-0">
+            <div class="pricing-card text-center">
+              <img src="images/pricing-03.jpg" class="plan-img" alt="price3" />
+              <h3 class="plan-name">Advanced Plan</h3>
+              <hr />
+              <ul class="plan-features">
+                <li class="feature-blue">Lorem Ipsum Dolore Sente</li>
+                <li class="feature-blue">Songo Lorem Ipsum Dol</li>
+                <li class="feature-blue">Mattioo Vango Neptuno</li>
+                <li class="feature-blue">Denim Stracha Kopi</li>
+                <li class="feature-blue">Digital Photography Awards</li>
+              </ul>
+              <div class="plan-price">$85 USD</div>
+              <a href="#" class="plan-btn"> Choose This Plan </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- footer -->
+
+    <footer class="footer-section">
+      <div class="container">
+        <p>
+          Copyright © 2022 <span>SnapX</span> Photo Contest Co. Ltd. All Rights
+          Reserved. Design <span>TemplateMo</span>
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
